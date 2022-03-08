@@ -25,11 +25,11 @@ The disadvantages:
     - When should each model be used?  
     - The implementation of the model won’t be aligned with the ubiquitous language.
 
-Then, what we must do? Create the context.
+Then, what we must do? _Create the context_.
 
 ## Bounded Context
 
-To solve inconsistent domain expert mental model we must divide the ubiquitous language into multiple smaller languages, then assign each one to the explicit context in which it can be applied, its bounded context.    
+To solve inconsistent domain expert mental model we must divide the ubiquitous language into multiple smaller languages, then assign each one to the explicit context in which it can be applied, its _bounded context_.    
 A ubiquitous language in one bounded context can be completely irrelevant to the scope of another bounded context.
 
 Please remember, a ubiquitous language is not universal. The meaning of ubiquitous only in the boundaries of its bounded context.
@@ -38,16 +38,18 @@ The consistency of the ubiquitous language only helps to identify the widest bou
 
 ### How big the boundary?
 
-It depends on the specific problem domain. It can be wide (following the business domain’s inherent contexts) or narrow (divided into smaller problem domain). It's a strategic design decision.  
+It depends on the specific problem domain. It can be wide (following the business domain's inherent contexts) or narrow (divided into smaller problem domain). It's a strategic design decision.  
 If the boundary wide it is hard to keep it consistent, but if it's small we will have more integration overhead the design induces.  
 
-Therefore, size is not a deciding factor. Just keep our models useful and align the bounded contexts sizes with our business needs and organizational constraints.
+Therefore, size is not a deciding factor. Just:  
+1. Keep our models useful.  
+2. Align the bounded contexts sizes with our business needs and organizational constraints.
 
 ### What the relation with subdomains?
 
-Subdomains are result of analyzing business domain to identify interrelated use cases. Bounded context are result of strategic design decision.
+Subdomains are result of analyzing business domain to identify interrelated use cases (discovered). Bounded context are result of strategic design decision (designed).
 
-Theoretically, though impractically, a single model could span the entire business domain (for small system).  
+Theoretically, though impractically, a single model (bounded context) could span the entire business domain (for small system).  
 When there was a conflict in the model we can split the model following domain expert mental model. Then, decompose the model again if the model hard to maintain.
 
 In some cases, it may be reasonable to use different models of the same subdomain to solve different problems.
