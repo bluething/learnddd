@@ -10,8 +10,8 @@ Subdomains are finer-grained problem domains whose goal is to provide solutions 
 To design an effective software solution, we have to grasp at least the basic knowledge (from domain expert) of the business domain.  
 The software has to mimic the domain experts way of thinking about the problem, their mental models.
 
-![knowledge dicovery](https://github.com/bluething/learnddd/blob/main/images/knowledgedicovery.png?raw=true)
-Remember, don't translate business requirement into source code. Learn and understand the requirements!  
+![knowledge dicovery](https://github.com/bluething/learnddd/blob/main/images/knowledgedicovery.png?raw=true)  
+Remember, don't translate business requirement into source code. _Learn and understand the requirements!_  
 If we only translate domain expert mental model then we will lose information in each layer of communication.
 
 Almost all software projects require the collaboration of stakeholders in different roles.
@@ -24,15 +24,15 @@ To communicate effectively all stakeholders need to speak in the same language.
 DDD calls for cultivating a single language for describing the business domain: the ubiquitous language.  
 The aim is to frame the domain experts understanding and mental models of the business domain in terms that are easy to understand.
 
-The language must have consistency to eliminate the need for assumptions and should make the business domain’s logic explicit.  
-Ubiquitous language demands a single meaning for each term. There are no place for synonym, use each term explicitly in its specific context.
+The language must have _consistency_ to eliminate the need for assumptions and should make the business domain’s logic _explicit_.  
+Ubiquitous language demands a single meaning for each term. There are _no place for synonym_, use each term explicitly in its specific context.
 
 ## Model of the Business Domain
 
 A model is not a copy of the real world but a human construct that helps us make sense of real world systems. All models have a purpose, and an effective model contains only the details needed to fulfill its purpose.  
 For example map, there are many type of maps with different purpose.
 
-In its essence, a model is an abstraction.
+In its essence, a model is an _abstraction_.
 
 The business domain is supposed to capture the domain experts mental models.  
 The model has to reflect the involved business entities and their behavior, cause and effect relationships, and invariants.
