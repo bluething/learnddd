@@ -1,16 +1,19 @@
 # Analyzing Business Domains
 
-To design and build an effective solution, we have to understand the problem. To understand the problem, we have to understand the organization's business strategy, and what value it seeks to gain by building the software.
+- To design and build an effective solution, we have to  
+  - understand _the problem_. To understand the problem, we have to  
+    - understand the organization's _business strategy_,  
+    - and what _value_ it seeks to gain by building the software.
 
 ### What is a business domain?
 
-A company's main area of activity. A company can operate in multiple business domains and the domain can change.
+A company's main area of activity. A company can operate in _multiple_ business domains and the domain _can change_.
 
 ### What is a subdomain?
 
 A subdomain is a fine-grained area of business activity. All of a company's subdomains form its business domain.  
 Doing complexity assessment can help us to differentiate subdomain type.  
-When looking for subdomains, it's important to identify business functions that are not related to software, acknowledge them as such, and focus on aspects of the business that are relevant to the software system you are working on.
+When looking for subdomains, it's important to _identify business functions that are not related to software_, acknowledge them as such, and focus on aspects of the business that are relevant to the software system you are working on.
 
 #### Core subdomains
 
@@ -40,3 +43,7 @@ When looking for subdomains, it's important to identify business functions that 
 
 Subdomains resemble sets of interrelated, _coherent_ use cases. Usually involve the same actor, the business entities, and they all manipulate a closely related set of data.  
 So, start from the use cases.
+
+Watch out the devil is in the details.  
+- We have to make sure we are not missing important information hidden in the intricacies of the business function.  
+- Ask this question, whether we need all of them?
